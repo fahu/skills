@@ -51,10 +51,14 @@ Use:
 ```
 
 - Scope is optional. Add `!` before `:` for a breaking change.
-- When a ticket identifier is provided in the task context, prefix the full
-  headline with `[<ticket>] `, before the type and optional scope. Preserve the
-  supplied identifier; omit the prefix when no ticket is provided.
-  For example: `[FAHU-1337] feat: Add new fancy feature`.
+- Include a ticket identifier only when the commit's changes directly relate
+  to the work described by that ticket. Decide separately for each commit;
+  a ticket in the task or branch context alone does not justify a reference.
+  When it fits, prefix the full headline with `[<ticket>] `, before the type
+  and optional scope, preserving the supplied identifier. Otherwise omit it.
+  For example: `[FAHU-1337] feat: Add new fancy feature` can reference the
+  feature ticket, while `chore: Update editor settings` omits it when those
+  settings are unrelated to the feature. Apply this rule to all commit types.
 - Write the subject in imperative, present tense; capitalize it, omit the
   trailing period, and keep it at 70 characters or fewer.
 - Keep every line under 100 characters.
@@ -74,6 +78,8 @@ without logic changes, and `meta` for repository metadata.
 
 ## Footers
 
+- Include ticket references only when they directly relate to the commit,
+  using the same relevance rule as the headline.
 - `Fixes <issue>` closes an issue when merged.
 - `Refs <issue>` links an issue without closing it.
 - For breaking changes, add `BREAKING CHANGE: <impact>`.
