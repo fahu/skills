@@ -1,0 +1,3 @@
+interface:
+  display_name: "Commits"
+  short_description: "Prepare, create, and amend atomic Git commits"
