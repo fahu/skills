@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · ketchup-video"
+  short_description: "pstack workflow: ketchup-video"
+  default_prompt: "Use $pstack-ketchup-video for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false

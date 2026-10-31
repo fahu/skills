@@ -1,0 +1,4 @@
+interface:
+  display_name: "pstack"
+  short_description: "Browse pstack workflows for Codex"
+  default_prompt: "Use $pstack to help me choose a workflow for this task."

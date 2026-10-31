@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · poteto-help"
+  short_description: "pstack workflow: poteto-help"
+  default_prompt: "Use $pstack-poteto-help for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false

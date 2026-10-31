@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · typescript-best-practices"
+  short_description: "pstack workflow: typescript-best-practices"
+  default_prompt: "Use $pstack-typescript-best-practices for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false

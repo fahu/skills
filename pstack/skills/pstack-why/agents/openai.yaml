@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · why"
+  short_description: "pstack workflow for Codex: why"
+  default_prompt: "Use $pstack-why for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false

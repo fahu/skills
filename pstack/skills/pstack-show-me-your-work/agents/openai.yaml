@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · show-me-your-work"
+  short_description: "pstack workflow: show-me-your-work"
+  default_prompt: "Use $pstack-show-me-your-work for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · principle-separate-before-serializing-shared-state"
+  short_description: "pstack workflow: principle-separate-before-serializing-shared..."
+  default_prompt: "Use $pstack-principle-separate-before-serializing-shared-state for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false

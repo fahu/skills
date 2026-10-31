@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · principle-test-behavior-not-implementation"
+  short_description: "pstack workflow: principle-test-behavior-not-implementation"
+  default_prompt: "Use $pstack-principle-test-behavior-not-implementation for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false
