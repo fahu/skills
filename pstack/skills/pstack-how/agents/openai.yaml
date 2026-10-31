@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · how"
+  short_description: "pstack workflow for Codex: how"
+  default_prompt: "Use $pstack-how for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false

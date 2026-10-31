@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · setup-pstack"
+  short_description: "pstack workflow: setup-pstack"
+  default_prompt: "Use $pstack-setup-pstack for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: true

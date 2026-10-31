@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · principle-guard-the-context-window"
+  short_description: "pstack workflow: principle-guard-the-context-window"
+  default_prompt: "Use $pstack-principle-guard-the-context-window for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false

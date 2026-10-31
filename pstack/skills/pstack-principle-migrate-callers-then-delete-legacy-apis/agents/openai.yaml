@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · principle-migrate-callers-then-delete-legacy-apis"
+  short_description: "pstack workflow: principle-migrate-callers-then-delete-legacy..."
+  default_prompt: "Use $pstack-principle-migrate-callers-then-delete-legacy-apis for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false

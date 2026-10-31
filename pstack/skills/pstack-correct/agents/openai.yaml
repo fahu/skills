@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · correct"
+  short_description: "pstack workflow for Codex: correct"
+  default_prompt: "Use $pstack-correct for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false

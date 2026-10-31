@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · statechart"
+  short_description: "pstack workflow: statechart"
+  default_prompt: "Use $pstack-statechart for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false

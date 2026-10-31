@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · ketchup"
+  short_description: "pstack workflow for Codex: ketchup"
+  default_prompt: "Use $pstack-ketchup for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false

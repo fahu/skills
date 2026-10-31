@@ -1,0 +1,6 @@
+interface:
+  display_name: "pstack · maintain-verification-skill"
+  short_description: "pstack workflow: maintain-verification-skill"
+  default_prompt: "Use $pstack-maintain-verification-skill for this task, following the Codex adapter and project instructions."
+policy:
+  allow_implicit_invocation: false
