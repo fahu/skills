@@ -42,9 +42,10 @@ def main():
     root = Path(__file__).resolve().parents[1]
     repository = root.parent.parent.parent
     package = repository / "package.json"
-    if (not (repository / "bin/fahu-skills.mjs").is_file()
-            or not package.is_file()
-            or json.loads(package.read_text()).get("name") != "@fahu/skills"):
+    if (
+        not package.is_file()
+        or json.loads(package.read_text()).get("name") != "@fahu/skills"
+    ):
         sys.exit("Generate exports in the fahu/skills repository, not an installed skill.")
     lock = json.loads((root / "upstream.lock.json").read_text())
     entries = entrypoints(lock)

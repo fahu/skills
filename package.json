@@ -2,21 +2,12 @@
   "name": "@fahu/skills",
   "version": "0.1.0",
   "private": true,
-  "description": "Project-local Codex skills with a pinned pstack adaptation",
+  "description": "Project-local Codex skills with pinned upstream imports",
   "type": "module",
-  "bin": {
-    "fahu-skills": "bin/fahu-skills.mjs"
-  },
   "scripts": {
     "skills:build": "python3 skills/pstack/.bundle/scripts/export.py",
-    "check": "python3 skills/pstack/.bundle/scripts/verify.py --require-all"
-  },
-  "files": [
-    "bin/",
-    "skills/"
-  ],
-  "engines": {
-    "node": ">=22"
+    "check": "python3 skills/pstack/.bundle/scripts/verify.py --require-all && python3 scripts/mattpocock.py && node --test --test-reporter=dot skills/security-audit/validate-*.test.cjs",
+    "check:mattpocock": "python3 scripts/mattpocock.py"
   },
   "repository": {
     "type": "git",
